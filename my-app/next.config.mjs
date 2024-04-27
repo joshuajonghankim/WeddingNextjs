@@ -2,7 +2,8 @@
 const nextConfig = {
   basePath: "/my-app",
   output: "export",  // <=== enables static exports
-  reactStrictMode: true,    
+  reactStrictMode: true,
+  
   };
   
   module.exports = nextConfig;
