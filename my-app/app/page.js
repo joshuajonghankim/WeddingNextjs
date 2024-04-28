@@ -55,6 +55,10 @@ export default function Home() {
           </div>
         </div>
 
+        <footer>
+          
+        </footer>
+
       </div>
 
 
