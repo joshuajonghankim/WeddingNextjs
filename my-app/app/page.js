@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="">
-      <div className="overflow-y-auto scroll-smooth snap-mandatory h-screen w-screen snap-y flex min-h-screen flex-col items-center justify-between">
+      <div className="relative overflow-y-auto scroll-smooth snap-mandatory h-screen w-screen snap-y flex min-h-screen flex-col items-center justify-between">
         
         <button class="rounded-full w-7 h-7 flex items-center justify-center pl-0.5 ring-1 ring-black focus:outline-none">
           <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
@@ -56,7 +56,7 @@ export default function Home() {
         </div>
 
         <footer>
-          
+
         </footer>
 
       </div>
