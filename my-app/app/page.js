@@ -2,13 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-      <div className="min-h-screen flex justify-center items-center bg-white">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold text-black">Hello World</h1>
-        </div>
-      </div>    
+    <main className="snap-mandatory h-screen w-screen overflow-y-scroll snap-y flex min-h-screen flex-col items-center justify-between">
 
       <button class="rounded-full w-7 h-7 flex items-center justify-center pl-0.5 ring-1 ring-black focus:outline-none">
         <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
@@ -18,33 +12,49 @@ export default function Home() {
         <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="4" height="18"></rect><rect x="15" y="3" width="4" height="18"></rect></svg>
       </button>
 
-
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <div className="snap-center min-h-screen min-w-full flex justify-center items-center bg-gray">
+        <div className="text-center">
+          <h1 className="text-3xl font-bold text-black">메인화면</h1>
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+      <div className="snap-center min-h-screen min-w-full flex justify-center items-center bg-white">
+        <div className="text-center">
+          <h1 className="text-3xl font-bold text-black">결혼합니다 페이지</h1>
+        </div>
+      </div>
+
+      <div className="snap-center min-h-screen min-w-full flex justify-center items-center bg-red-300">
+        <div className="text-center">
+          <h1 className="text-3xl font-bold text-black">날짜 달력 남은시간 카운팅</h1>
+        </div>
+      </div>
+
+      <div className="snap-center min-h-screen min-w-full flex justify-center items-center bg-red-300">
+        <div className="text-center">
+          <h1 className="text-3xl font-bold text-black">갤러리, 사진 더보기</h1>
+        </div>
+      </div>
+
+      <div className="snap-center min-h-screen min-w-full flex justify-center items-center bg-red-300">
+        <div className="text-center">
+          <h1 className="text-3xl font-bold text-black">오시는 길, 지도</h1>
+        </div>
+      </div>
+
+      <div className="snap-center min-h-screen min-w-full flex justify-center items-center bg-red-300">
+        <div className="text-center">
+          <h1 className="text-3xl font-bold text-black">계좌번호</h1>
+        </div>
+      </div>
+
+      <div className="snap-center min-h-screen min-w-full flex justify-center items-center bg-red-300">
+        <div className="text-center">
+          <h1 className="text-3xl font-bold text-black">방명록</h1>
+        </div>
+      </div>
+
+      <div className="snap-center marker:relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/next.svg"
@@ -123,7 +133,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div>     
 
     </main>
   );
