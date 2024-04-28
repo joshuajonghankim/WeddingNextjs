@@ -8,7 +8,15 @@ export default function Home() {
         <div className="text-center">
           <h1 className="text-3xl font-bold text-black">Hello World</h1>
         </div>
-      </div>
+      </div>    
+
+      <button class="rounded-full w-7 h-7 flex items-center justify-center pl-0.5 ring-1 ring-black focus:outline-none">
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+      </button>
+
+      <button class="rounded-full w-7 h-7 flex items-center justify-center pl-0.5 ring-1 ring-black focus:outline-none">
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="4" height="18"></rect><rect x="15" y="3" width="4" height="18"></rect></svg>
+      </button>
 
 
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
