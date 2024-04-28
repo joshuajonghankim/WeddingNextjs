@@ -56,6 +56,7 @@ export default function Home() {
         </div>
 
         <footer>
+          Hello World
 
         </footer>
 
